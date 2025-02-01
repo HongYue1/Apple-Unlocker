@@ -31,10 +31,8 @@ This script automates the process of unlocking Apple ID accounts by solving capt
 
 3. Prepare the necessary files:
    - **`files/settings.json`**:
-     Add your YesCaptcha API key and the new password to be set.
      ```json
      {
-       "API_KEY": "your_yescaptcha_api_key",
        "new_password": "your_new_password"
      }
      ```
