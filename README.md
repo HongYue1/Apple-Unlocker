@@ -8,7 +8,7 @@ This script automates the process of unlocking Apple ID accounts by solving capt
 ## Features
 
 - Fully automated process for Apple ID unlocking.
-- Captcha solving via the [YesCaptcha](https://yescaptcha.com) service.
+- Captcha locally using [ddddocr](https://github.com/sml2h3/ddddocr)
 - Security question verification and response.
 - Password reset with a new password provided in the configuration.
 - Multi-threaded support for processing multiple accounts.
