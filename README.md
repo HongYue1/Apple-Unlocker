@@ -62,7 +62,7 @@ This script automates the process of unlocking Apple ID accounts by solving capt
 
 ## Requirements
 
-- **Python 3.8+**
+- **Python 3.8~3.12**: ddddocr can't work on any version higher than 3.12
 - **Modules**: Listed in `requirements.txt`.
 
 ---
@@ -70,7 +70,7 @@ This script automates the process of unlocking Apple ID accounts by solving capt
 ## Dependencies
 
 - **requests**: For all HTTP requests.
-- **YesCaptcha**: Used to solve captcha challenges.
+- **ddddocr**: Used to solve captcha challenges.
 - **colorama**: For colorful console output.
 - **concurrent.futures**: For multi-threaded processing.
 - **evpn**: To manage VPN connections.
@@ -79,7 +79,7 @@ This script automates the process of unlocking Apple ID accounts by solving capt
 
 ## File Structure
 
-- **`files/settings.json`**: Contains API key and new password.
+- **`files/settings.json`**: Contains thw new password.
 - **`files/Accounts.txt`**: Input file with accounts to be unlocked.
 - **`files/Success.txt`**: Output file for successfully unlocked accounts.
 - **`files/error.txt`**: Output file for failed accounts.
@@ -87,10 +87,8 @@ This script automates the process of unlocking Apple ID accounts by solving capt
 ---
 
 ## Notes
-
-1. The script requires a valid YesCaptcha API key with sufficient credits.
-2. Ensure the VPN integration (`evpn`) is set up properly to avoid rate limits or bans.
-3. Adjust `max_workers` in the script for optimal multi-threading performance.
+1. Ensure the VPN integration (`evpn`) is set up properly to avoid rate limits or bans.
+2. Adjust `max_workers` in the script for optimal multi-threading performance.
 
 ---
 
