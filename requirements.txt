@@ -4,3 +4,4 @@ colorama
 evpn
 loguru
 typing_extensions
+ddddocr
